@@ -12,3 +12,6 @@ class Solution:
         return True
 
 """ The hack way is to build a 26 slot array. Using letters as index (ord function). But it can't work with a bigger alphabet. """
+
+""" One liner:
+    return sorted(s) == sorted(t) """
