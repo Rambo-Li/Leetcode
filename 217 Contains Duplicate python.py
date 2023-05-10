@@ -13,6 +13,6 @@ Whenever you want to see if something already exist, hash it then go direct to t
 Python dictionary is actually a hashtable.
 """
 
-""" This is a one-liner if succuction is what you are after
+""" This is a one-liner if succinctness is what you are after
     return len(set(nums)) != len(nums)
 """
