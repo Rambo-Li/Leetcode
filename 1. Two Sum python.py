@@ -8,4 +8,4 @@ class Solution:
                 hashtable[value] = i 
 
 
-""" Flipping array index and value """
+""" Flipping array index and values """
