@@ -10,7 +10,7 @@ I think coding comprises of three steps：
 3. Decide the update rule, such as reading, adding, deleting, etc.
     How to manipulate the data? How to classify the scenarios so the code is easy to write and clean?  
 
-Number representiveness is the fundation of computer programming. A number can represent two types of information, a value or a address(pointer, index).
+Number representiveness is the fundation of computer programming. A number can represent two types of information, a value or a address(pointer, index). Complexity is when to increment/decrement it. When you have multiple numbers, they are connected through pointer operations, the complexity comes from when to add/remove/read it.
 
 Discussion on the type of problems.
 1. Array and hashing.
