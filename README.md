@@ -22,7 +22,7 @@ Discussion on the type of problems.
     Pointer makes use of some operation to get the next value, no matter array or linked list. In array, it's i=i+1, in linked list, it's pointer=node.next. The is the iterator concept in most programming languages. The complexity comes from multiple pointers, their direction, speed, interaction, etc.
 3. Stack.
     --- values stored by some criteria, and read from end or ends
-    Another O(1) reading operation is to read from either end. The is the main idea of stack and queue. The value only come and go from the ends of the data structure, of course, the adding and deleting rules can be complex.
+    Another O(1) reading operation is to read from either end. The is the main idea of stack and queue. The value only come and go from the ends of the data structure, of course, the adding and deleting rules can be complex. Stack can be used to update former values if later a bigger/smaller value comes up, so that you know what is the max/min after certain value.
 4. Binary Search.
     --- two pointers, one mid pointer/value, one target value, one of the pointers can 'jump'
     Array index can 'jump' if the underlying value is ordered, instead of looping. This is the concept of binary search. The jump gives a narrower scope. The complexity can come from the searching scope, jumping conditions, classifying scenarios. Also, binary search has a recursive nature, which means a big problem's solving relies on same type, but smaller problems.
