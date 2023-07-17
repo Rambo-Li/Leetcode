@@ -29,4 +29,6 @@ Discussion on the type of problems.
 5. Sliding windows.
     --- two pointers with width.
     Complextity comes from update rules for pointers or width, or the interaction between them. 
-
+6. Linked lists.
+    --- multiple pointers.
+    Pointers are the only way to access nodes. If pointers need to be changed, set up another pointer to hold the next node.
