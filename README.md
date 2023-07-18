@@ -31,4 +31,5 @@ Discussion on the type of problems.
     Complextity comes from update rules for pointers or width, or the interaction between them, the width of window may or may not change. 
 6. Linked lists.
     --- multiple pointers.
-    Pointers are the only way to access nodes. If pointers need to be changed, set up another pointer to hold the next node.
+    Pointers are the only way to access nodes. If pointers need to be changed, set up another pointer to hold the next node. To get any node in the linked list, you can 
+    use multiple pointers going at different speed or start point.
