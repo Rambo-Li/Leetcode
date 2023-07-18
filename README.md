@@ -26,6 +26,7 @@ Discussion on the type of problems.
 4. Binary Search.
     --- two pointers, one mid pointer/value, one target value, one of the pointers can 'jump'
     Array index can 'jump' if the underlying value is ordered, instead of looping. This is the concept of binary search. The jump gives a narrower scope. The complexity can come from the searching scope, jumping conditions, classifying scenarios. Also, binary search has a recursive nature, which means a big problem's solving relies on same type, but smaller problems.
+    Binary search space can be not just the obvious array, but also a [1, n] abstract space. You just need to define the update rule.
 5. Sliding windows.
     --- two pointers with width.
     Complextity comes from update rules for pointers or width, or the interaction between them, the width of window may or may not change. 
