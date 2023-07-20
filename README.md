@@ -34,3 +34,5 @@ Discussion on the type of problems.
     --- multiple pointers.
     Pointers are the only way to access nodes. If pointers need to be changed, set up another pointer to hold the next node. To get any node in the linked list, you can 
     use multiple pointers going at different speed or start point.
+7. Trees.
+    --- one pointer with stack or queue
