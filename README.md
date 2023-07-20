@@ -36,3 +36,4 @@ Discussion on the type of problems.
     use multiple pointers going at different speed or start point.
 7. Trees.
     --- one pointer with stack or queue
+    Next operation is not enough for tree element traversal, so you need a stack or queue to hold the branches.
