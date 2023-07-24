@@ -35,5 +35,7 @@ Discussion on the type of problems.
     Pointers are the only way to access nodes. If pointers need to be changed, set up another pointer to hold the next node. To get any node in the linked list, you can 
     use multiple pointers going at different speed or start point.
 7. Trees.
-    --- one pointer with stack or queue
-    Next operation is not enough for tree element traversal, so you need a stack or queue to hold the branches. Because of the unknown depth of either side, recursion sometimes is the only choice. Recursion is a bit hard to think, but basically any problem that rely on small subproblem and small subproblem is easy can be written in recursion form. Stack usually put all children on it, but you can vary like putting all left children on it then pop and do it again, which is how to traverse BST in order.
+    --- one pointer with stack or queue, recursion.
+    Next operation is not enough for tree element traversal, so you need a stack or queue to hold the branches. Recursion is a bit hard to think, but basically any problem that rely on small subproblem and small subproblem is easy can be written in recursion form. If there are unknown depth evolved, recursion is mostly the only choice.  Stack usually put all children on it, but you can vary like putting all left children on it then pop and do it again, which is how to traverse BST in value-order.
+8. Trie.
+    --- just like trees with alphabet braching.
