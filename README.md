@@ -6,7 +6,7 @@ I think coding comprises of three steps：
 1. Nail down the minimal information needed. 
     What value to determine the result? Can you name it in English? How many pointers and values do you need?
 2. Decide the data form in memory, it can be thought as data structure.
-    The data hold in memory serves as the basis for computation. Manipulating them should be as easy as possible.
+    The data hold in memory serves as the basis for computation. Usually the usage pattern decides the data structure.
 3. Decide the update rule, such as reading, adding, deleting, etc.
     How to manipulate the data? How to classify the scenarios so the code is easy to write and clean?  
 
@@ -39,3 +39,5 @@ Discussion on the type of problems.
     Next operation is not enough for tree element traversal, so you need a stack or queue to hold the branches. Recursion is a bit hard to think, but basically any problem that rely on small subproblem and small subproblem is easy can be written in recursion form. If there are unknown depth evolved, recursion is mostly the only choice.  Stack usually put all children on it, but you can vary like putting all left children on it then pop and do it again, which is how to traverse BST in value-order.
 8. Trie.
     --- just like trees with alphabet braching.
+9. Backtracking.
+    --- recursion and you need to do something to the recursion result to get the answer.
