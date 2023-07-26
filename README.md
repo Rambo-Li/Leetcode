@@ -40,4 +40,4 @@ Discussion on the type of problems.
 8. Trie.
     --- just like trees with alphabet braching.
 9. Backtracking.
-    --- recursion and you need to do something to the recursion result to get the answer.
+    --- recursion and you need to do something to the recursion result to get the answer. The other way is start building result while you go down the tree. This method is the only choice if parent need extra information of child to build on children's results. When dealing with duplicates, the best way is to avoid duplicates recursions from the first place, if this can't be done, try to use set, the last choice is use sorted array to avoid duplicates.
