@@ -45,3 +45,5 @@ class Solution:
         res = []        
         dfs((), 0, n)
         return res
+    
+# Backtracking means uses global variable. A normal dfs carries the path in the parameter.
