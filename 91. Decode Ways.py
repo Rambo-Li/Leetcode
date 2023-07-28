@@ -13,3 +13,6 @@ class Solution:
             else:
                 res[i+1] = res[i-1]
         return res[-1]
+    
+
+# This problem has way more scenarios than I thought.
