@@ -45,3 +45,5 @@ Discussion on the type of problems.
     The word backtracking means using global variables so that each recursion modifies on the same data, instead of passing parameters to recursive call. If there is much informatin to be communicated between recursive calls, this is a better choice.
 10. 1-D DP
     --- recursion based on several base cases. Or think of an array that latter elements build on former elements.
+11. Heap and priority queue.
+    --- BST root represents the mid(l < root < r), while heap root represents the min or max(l / r < root). 
