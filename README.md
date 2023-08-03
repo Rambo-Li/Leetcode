@@ -47,3 +47,6 @@ Discussion on the type of problems.
     --- recursion based on several base cases. Or think of an array that latter elements build on former elements.
 11. Heap and priority queue.
     --- BST root represents the mid(l < root < r), while heap root represents the min or max(l / r < root). 
+12. Graph.
+    --- in addition to the pointer and stack/queue for tree traversals, graph needs another data structure to hold the visited elements.
+    The complexity comes from starting point/s, which nodes to put on the queue, and how to represent the visited set.
