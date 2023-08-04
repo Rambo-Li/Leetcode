@@ -41,7 +41,7 @@ Discussion on the type of problems.
     --- just like trees with alphabet braching.
 9. Backtracking.
     --- recursion and you need to do something to the recursion result to get the answer. 
-    There are two ways to build up the answer, one is go down to leaves and let the leaves return. The other way is start building result while you go down the tree. This method is the only choice if parent needs extra information of child to build on children's results. The branching is created by a for loop + recursive call. When dealing with duplicates, the best way is to avoid duplicates recursions from the first place, if this can't be done, try to use set, the last choice is use sorted array to avoid duplicates. 
+    There are two ways to build up the answer, one is go down to leaves and let the leaves return. The other way is start building result while you go down the tree. This method is the only choice if child needs all parents' information to build results. The branching is created by a for loop + recursive call. When dealing with duplicates, the best way is to avoid duplicates recursions from the first place, if this can't be done, try to use set, the last choice is use sorted array to avoid duplicates. 
     The word backtracking means using global variables so that each recursion modifies on the same data, instead of passing parameters to recursive call. If there is much informatin to be communicated between recursive calls, this is a better choice.
 10. 1-D DP
     --- recursion based on several base cases. Or think of an array that latter elements build on former elements.
