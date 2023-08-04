@@ -17,3 +17,6 @@ class Solution:
         for n1, n2 in edges:
             if connect(n1, n2) == False:
                 return [n1,n2]
+    
+# The genius part of union-find algorithm is to use a number represent all connected nodes. When union happens, update one node's number to the other, so the other becomes
+# root. 
