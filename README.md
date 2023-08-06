@@ -52,3 +52,4 @@ Discussion on the type of problems.
     The complexity comes from starting point/s, which nodes to put on the queue, and how to represent the visited set.
 13. Intervals.
     --- two values
+    If you sort the intervals, then only the right end matters.
