@@ -1,10 +1,10 @@
-My solution to leetcode problems as well as my thought on them.
+My solution to leetcode problems as well as my thought on them. New ideas are added as I develop them.
 
-The order of the subjects is from https://neetcode.io/roadmap. 
+The order of the subjects and the problems are from https://neetcode.io/roadmap. 
 
 I think coding comprises of three steps：
-1. Nail down the minimal information needed. 
-    What value to determine the result? Can you name it in English? How many pointers and values do you need?
+1. Find the information flow needed to solve the problem. 
+    How to go from given information to answer? What is the minimal information you need to feed to the next step? What is the underlying structure of the flow? 
 2. Decide the data form in memory, it can be thought as data structure.
     The data hold in memory serves as the basis for computation. Usually the usage pattern decides the data structure.
 3. Decide the update rule, such as reading, adding, deleting, etc.
