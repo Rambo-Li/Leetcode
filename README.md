@@ -53,3 +53,5 @@ Discussion on the type of problems.
 13. Intervals.
     --- two values
     If you sort the intervals, then only the right end matters.
+14. Gready.
+15. Advanced Graph.
