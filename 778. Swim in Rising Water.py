@@ -17,3 +17,13 @@ class Solution:
                     heapq.heappush(hp, (grid[x+d1][y+d2], x+d1, y+d2))
 
         return res
+
+'''
+Concept: weighted edge, shortest path. Partition the graph to three parts, visited, connected and don't care.
+DS: A set to keep track of visited nodes.
+    A min_heap for the frontier. 
+    A set to keep track of edges that has been put in the frontier so there is no duplicates. 
+Algo: Choose the shortest edge from the frontier to join the visited. And put connected nodes on the frontier. 
+    Each node is connected to four adjacent nodes, so duplicates will be in the frontier if we don't filter. It is okay but slow surely.
+    While loop condition.
+'''

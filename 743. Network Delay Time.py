@@ -18,3 +18,11 @@ class Solution:
                     if net[node][j]!=-1 and j not in visited:
                         heapq.heappush(hp, (distance+net[node][j], j))
         return res if len(visited)==n else -1
+
+'''
+Concept: Shortest path to all nodes. 
+DS: A set to keep track of nodes already included.
+    A min heap to keep track of nodes connected to visited nodes as a whole.
+Algo: Choose the shortest edge to include as next. Note the two nodes of that edge might already be included.
+    While loop conditions.
+'''
