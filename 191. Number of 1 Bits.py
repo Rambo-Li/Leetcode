@@ -4,5 +4,5 @@ class Solution:
     
 '''
 Concept: count 1 bit in the binary representation
-Algo: bin change n to binary string format, count method for collections
+Algo: bin change n to binary string format(start with 0b), count method for collections
 '''
