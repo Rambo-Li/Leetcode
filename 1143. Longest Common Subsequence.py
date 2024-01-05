@@ -13,7 +13,7 @@ class Solution:
         return dp[-1][-1]
 
 """
-Concept: minimum steps or distance between two strings
+Concept: if two letters are the same, defer to s[i-1]&s2[j-1]; if not, check s[i]&s2[j-1] or s[i-1]&s2[j].
 DS: one matrix
 Algo: how to formulate the current steps given all former steps, base on two senarios: current character equal or not
 """

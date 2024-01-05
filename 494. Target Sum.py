@@ -42,7 +42,8 @@ class Solution:
         return dp[-1]
     
 """
-Concept: how many ways to pick k elements that sum to target
+Concept: one dimension is how many ways can be reached for each total(target is the end), adding a new number, meaning that
+    total i has added ways from (i-new), plus the ways originally reached i.
 DS: an array of length target
 Algo: different from coin problems, each element can only be picked once or zero, so the update is from the end of the array.
     The array represents pathes of all the elements before current, by adding current, (i-current) can reach i now, plus whatever ways i already have.
