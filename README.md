@@ -4,7 +4,8 @@ The order of the subjects and the problems are from https://neetcode.io/roadmap.
 
 I think coding comprises of three steps：
 1. Find the information flow needed to solve the problem. 
-    How to go from given information to answer? What is the minimal information you need to feed to the next step? What is the underlying structure of the flow? 
+    How to go from given information to answer? What is the minimal information you need to feed to the next step? What is the underlying structure of the flow?
+    Data connection, pruning, graphical relationship. 
 2. Decide the data form in memory, it can be thought as data structure.
     The data hold in memory serves as the basis for computation. Usually the usage pattern decides the data structure.
 3. Decide the update rule, such as reading, adding, deleting, etc.

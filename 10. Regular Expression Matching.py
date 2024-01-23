@@ -19,3 +19,7 @@ class Solution:
                         dp[i][j] = dp[i-2][j]
         # print(dp)
         return dp[-1][-1]
+"""
+Concept: Two strings matching. The transition is to think if a condition is true, what happens to the two strings.
+
+"""
